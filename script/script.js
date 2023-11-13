@@ -16,7 +16,7 @@ const getValueInput = () => {
     if (usuario == usrot && pass == passt) {
         //var aviso = document.getElementById("error-login")
         document.getElementById("error-login1").innerHTML = "Login correcto";
-        open("/Sesion1-práctica/index2.html")
+        open("/Sesion1-practica/index2.html")
         //open("D:/TRABAJOS MIGUEL/ClasesHuelga(Programacion)/sabes-quien-soy-main/index2.html")
     }
     if (usuario != usrot) {
