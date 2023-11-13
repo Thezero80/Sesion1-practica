@@ -1,0 +1,120 @@
+h1,h2,h3,h4,h5,h6 {font-family: "Oswald"}
+body {font-family: "Open Sans"}
+    
+    
+.select-boxes{
+    text-align: center;
+    /*margin: 2px 2px 2px 80px;*/
+}
+
+select {
+    background-color: #F5F5F5;
+    border: 1px double #15a6c7;
+    color: #1d93d1;
+    font-family: Georgia;
+    font-weight: bold;
+    font-size: 14px;
+    height: 39px;
+    padding: 7px 8px;
+    width: 250px;
+    outline: none;
+    margin: 10px 0 10px 0;
+}
+    
+    
+/* Basic reset */
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	
+	/* Better text styling */
+	font: bold 14px Arial, sans-serif;
+}
+
+
+img {
+    margin-bottom: -5px
+}
+.w3-btn,
+.w3-button {
+    border: none;
+    display: inline-block;
+    outline: 0;
+    padding: 8px 16px;
+    vertical-align: middle;
+    overflow: hidden;
+    text-decoration: none;
+    color: inherit;
+    background-color: inherit;
+    text-align: center;
+    cursor: pointer;
+    white-space: nowrap
+}
+.w3-badge,
+.w3-tag {
+    background-color: #000;
+    color: #fff;
+    display: inline-block;
+    padding-left: 8px;
+    padding-right: 8px;
+    text-align: center
+}
+.w3-center {
+    text-align: center!important
+}
+.w3-border {
+    border: 1px solid #ccc!important
+}
+.w3-margin {
+    margin: 16px!important
+}
+.w3-padding {
+    padding: 8px 16px!important
+}
+.w3-padding-large {
+    padding: 12px 24px!important
+}
+.w3-padding-16 {
+    padding-top: 16px;
+    padding-bottom: 16px;
+    border-radius: 20px;
+}
+.w3-padding-48 {
+    
+    padding-bottom: 25px!important
+}
+
+/* Colors */
+
+.w3-white,
+.w3-hover-white:hover {
+    color: #000!important;
+    background-color: #fff!important
+}
+.w3-black,
+.w3-hover-black:hover {
+    color: #fff!important;
+    background-color: #008B8B!important
+}
+.w3-light-grey,
+.w3-hover-light-grey:hover,
+.w3-light-gray,
+.w3-hover-light-gray:hover {
+    color: #000!important;
+    background-color: #f1f1f1!important
+}
+
+.verde{
+    color: #000;
+    border: #000;
+    background-color: green;
+    border-radius: 15px;
+}
+
+.rojo{
+    color: #000;
+    border: #000;
+    background-color: red;
+    border-radius: 15px;
+}

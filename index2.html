@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title id="titulo">Hacker</title>
+    <link rel="icon" type="image/x-icon" href="img/logo-fake.png" />
+    <style>
+        .boton1{
+            background-color: red;
+            color: black;
+            border: outset green;
+            border-radius: 10px;
+            margin: 10px;
+            font-size: 1rem;
+            text-align: center;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            width: 200px;
+              
+        }
+        .grxs{
+            background-color: rgb(224, 248, 8);
+            color: black;
+            border: outset rgb(20, 236, 252);
+            border-radius: 10px;
+            margin: 10px;
+            font-size: 1em;
+            text-align: center;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            width: 200px;
+            
+        }
+        .entrada{
+            border-color: red;
+        }
+    </style>
+</head>
+<body>
+    <center><div class="grxs"><div>Gracias por el login</div></div></center>
+
+    <br>
+    <center><strong>Por favor dale click en <b>Misión</b></strong></center>
+    <center><div class="boton1"><a id="red" >Misión</a></div></center>
+    <br>
+    <br>
+    <center>
+    Codigo: <a id="tr"><input class="entrada" maxlength="10" type="password" id="entrada" value="" required placeholder="escriba el codigo secreto"></a>
+    <button onclick="getInput()">enviar</button>
+    <button onclick="getReset()">Borrar</button>
+    <br><br>
+    <button id="envio">Usuario</button>
+    </center>
+    <!-- ValidacionBootstrap -->
+
+    
+</body>
+<script src="script/jquery-3.5.1.min.js"></script>
+<script src="script/script.js"></script>
+<script src="js/jquery.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+
+</html>
