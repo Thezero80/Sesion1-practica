@@ -2,6 +2,8 @@
 //let pass = document.getElementById("password")
 console.log("usuario--> admin")
 console.log("contraseña--> root")
+//Copyright Thezero2023
+//XD
 
 
 
