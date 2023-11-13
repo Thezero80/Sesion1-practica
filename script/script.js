@@ -73,6 +73,8 @@ var Cod27 = "977122305"
 var cod28 = "1248999392"
 var Cod29 = "2738493999"
 var Cod30 = "6544547642"
+var cod31 = "5645465651"
+var cod32 = "4456425864"
 
 var red = document.getElementById("red")
 red.onclick = function () {
